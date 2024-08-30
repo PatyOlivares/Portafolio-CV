@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(209, 208, 208);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.contenedor {
+    max-width: 800px;
+    width: 100%; 
+    margin: 50px 15px; 
+}
+
+.section{
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    display: flex;
+}
+
+.subsection{
+    width: 50%;
+}
+
+p span {
+    font-weight: 500;
+}
+
+.letra{
+    color: #4B6587;
+}
+
+.titulo{
+    font-size: 24px; 
+}
+
+.section_spiky{
+    background-color: #fff;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.section_spiky h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.section_spiky .icon_container{
+    color: black !important;
+    margin: auto 0px;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width:870px) {
+    .contenedor {
+        max-width: 800px;
+        width: 100%; 
+        margin: 80px 15px; 
+    }  
+    section[id]{
+        scroll-margin: 80px;
+    }
+    #home #section_status{
+        background-color: #fff;
+        padding: 50px;
+        border-radius: 10px;
+        margin-bottom: 2px;
+        display: block;
+    }
+    .subsection{
+        width: 100%;
+    } 
+}
+
+@media screen and (max-width:760px) {
+    .contenedor {
+        max-width: 800px;
+        width: 100%; 
+        margin: 80px 15px; 
+    }
+    
+    section[id]{
+        scroll-margin: 80px;
+    }
+}
+
+@media screen and (max-width:475px){
+    h1{
+        font-size: 26px;
+    }
+
+    #section_status{
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 2px;
+        display: block;
+    }
+    .subsection{
+        width: 100%;
+    }
+     
+    .titulo{
+        font-size: 20px; 
+    }
+    
+    .section_spiky h2{
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-size: 22px;
+    }
+    section p{
+        font-size:14px ;
+    }
+    .p-desc{
+        font-size:19px ;
+        border-bottom: 1px solid rgba(212, 210, 210, 0.736);
+        padding-bottom: 20px;
+        text-align: justify;
+    }
+} 
+

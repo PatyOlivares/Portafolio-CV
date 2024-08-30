@@ -1,0 +1,58 @@
+
+
+
+/* Para la traslacion  */
+.ambitos{
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 1s ease;
+    
+}
+.ambitos--visible{
+    transform: translateY(0px);
+    opacity: 1;
+}
+/* ----------------------- */
+
+.acordeon_item{
+    background-color: #fff;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin-bottom: 1px;
+}
+
+.acordeon_item .acordeon_titulo{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.acordeon_item .acordeon_titulo .encabezado{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+.acordeon_item .acordeon_titulo .acordeon-icono  i {
+    font-size: 25px;
+    transition: 0.4s; 
+  }
+ 
+.acordeon_item .acordeon_contenido{
+    max-height: 0;
+    overflow: hidden; /* recorta el contenido que sale de la caja de reocmendacion*/
+    transition: max-height 0.5s ease;
+}
+.acordeon_item .acordeon_contenido.show_1 {
+    max-height: 1000px; /* Puede ajustarse esto según sea necesario */
+  }
+
+
+  @media screen and (max-width:475px){
+    .acordeon_item .acordeon_titulo .encabezado{
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+  }
+}
+
