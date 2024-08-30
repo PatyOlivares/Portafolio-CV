@@ -1,0 +1,46 @@
+
+
+
+.section_redes{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 1px;
+    display: flex;
+    align-items:center;
+}
+
+.section_redes .btn{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid #cdcdcd;
+    color: black;
+    border-radius: 30px;
+    margin: 0px 2px;
+}
+.section_redes .btn:hover{
+    text-decoration: underline;
+}
+
+.correo{
+    text-align: right;
+    text-decoration:underline;
+}
+
+@media screen and (max-width:760px){
+    .section_redes{
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 1px;
+        display:block ;
+        align-items:center;
+    }
+    .section_redes .subsection{
+        margin: 15px;
+    } 
+
+}

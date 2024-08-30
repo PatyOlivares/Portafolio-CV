@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="La siguiente página es un portafolio en forma  Curricular donde se destaca lo mas importante para su presentación a una Empresa. ">
+    <meta name="author" content="Ana Patricia Olivares Palomares">
+    <title>Portafolio Curriculum</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sticky-nav.css">
+    <link rel="stylesheet" href="./css/image.css">
+    <link rel="stylesheet" href="./css/educacion.css">
+    <link rel="stylesheet" href="./css/ambitos.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/cards.css">
+    <link rel="stylesheet" href="./css/redes.css">
+    <link rel="stylesheet" href="./css/btn_status.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="sticky-nav">
+        <ul>
+            <li>
+                <a href="#home" class="nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="bi bi-house-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
+                        <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="#educacion" class="nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor"
+                        class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z" />
+                        <path
+                            d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z" />
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="#cursos" class="nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="bi bi-award" viewBox="0 0 16 16">
+                        <path
+                            d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z" />
+                        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="#habilidades" class="nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                        class="bi bi-tools" viewBox="0 0 16 16">
+                        <path
+                            d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3q0-.405-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708M3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z" />
+                    </svg>
+                </a>
+
+            </li>
+            <li>
+                <a href="#ambitos" class="nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                        class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5q0 .807-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33 33 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935m10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935" />
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="#contactos" class="nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                        class="bi bi-chat-right-text-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353zM3.5 3h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1m0 2.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1m0 2.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1" />
+                    </svg>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+    <div class="contenedor">
+        <section class="home" id="home">
+            <div class="section" id="section_status">
+                <div class="subsection">
+                    <h1> Patricia Olivares P.</h1>
+                    <p class="profesion">
+                        Ingeniera Geomática
+                    </p>
+                    <div class="status">
+                        <p>Disponible para trabajar</p>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="med_img">
+                        <img class="profile" src="./img/yo.jpeg" alt="">
+                    </div>
+
+                </div>
+                <div class="subsection">
+                    <p class="p-desc">¡Hola! <span>Soy Patricia Olivares, </span>pasante de<span> Ingeniería Geomática
+                        </span>en proceso de titulación <span></span>con conocimientos en manejo de bases de datos,
+                        automatización de procesos mediante scripts de Python, control de versiones con GitHub, y diseño
+                        web
+                        front-end. Además, tengo un fuerte interés en el análisis de datos, la ingeniería de datos y el
+                        ciclo de vida de los datos. </p>
+                    <div>
+                        <a href="#work" class="btn-work">Proyectos</a>
+                        <button class="btn-cv">CV DOWNLOAD</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="sect_img">
+            <div class="section_img" id="logos">
+                <div class="img_container">
+                    <img src="./img/arcgis.png" alt="Argis" class="animate" title="Argis">
+                </div>
+                
+                <div class="img_container">
+                    <img src="./img/qgis.png" alt="Qgis" class="animate" title="Qgis">
+                </div>
+                <div class="img_container">
+                    <img src="./img/autocad.png" alt="AutoCad" class="animate" title="AutoCad">
+                </div>
+                <div class="img_container">
+                    <img src="./img/python.png" alt="Python" class="animate" title="Python">
+                </div>
+                <div class="img_container">
+                    <img src="./img/sql.jpg" alt="SQL" class="animate" title="SQL">
+                </div>
+                <div class="img_container">
+                    <img src="./img/html.jpg" alt="HTML" class="animate" title="HTML">
+                </div>
+                <div class="img_container">
+                    <img src="./img/css.png" alt="CSS" class="animate" title="CSS">
+                </div>
+                <div class="img_container">
+                    <img src="./img/js.png" alt="JavaScript" class="animate" title="JavaScript">
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="educacion" id="educacion">
+            <div class="section_spiky">
+                <h2><b> <span class="letra">E</span>ducación / <span class="letra">E</span>xperiencia Académica</b></h2>
+                <div class="icon_container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z" />
+                        <path
+                            d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="section" id="section_status">
+                <div class="subsection_edu">
+                    <p class="titulo">Educación</p>
+                    <div class="educacion">
+
+                        <p class="edu">Ingeniería Geomática</p>
+                        <p class="edu"><u> <b>Universidad Nacional Autónoma de México (UNAM)</b></u></p>
+                        <div class="fecha">2017 - 2025 </div>
+                    </div>
+                    <div class="educacion">
+                        <p>Vicepresidenta de la Sociedad de Alumnos de Ingeniería Geomática de la Facultad de Ingeniería
+                            (FI-UNAM).</p>
+                        <div class="fecha">2024 - 2025</div>
+                    </div>
+                </div>
+                <div class="subsection_edu">
+                    <p class="titulo">Experiencia Académica </p>
+                    <div class="educacion">
+                        <p class="edu"><u><b>Servicio Social - Laboratorio Nacional de Observación de la Tierra
+                                    (UNAM)</b></u></p>
+                        <p>Utilización de procesos DQL en PostgreSQL con el objetivo de clasificar características de
+                            imágenes satelitales.</p>
+                        <p>Recolección de datos utilizando APIS de terceros.</p>
+                        <p>Control de versiones en git.</p>
+                        <div class="fecha"> 07/2023 - 01/2024</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br><br>
+        <section class="cursos" id="cursos">
+            <div class="section_spiky">
+                <h2><b><span class="letra">C</span>ursos / <span class="letra">C</span>ertificados</b></h2>
+                <div class="icon_container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="bi bi-award" viewBox="0 0 16 16">
+                        <path
+                            d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z" />
+                        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="section" id="section_status">
+                <div class="subsection_edu">
+                    <p class="titulo">Cursos</p>
+                    <div class="educacion">
+                        <p class="edu">Python and Pandas for Data Engineering</p>
+                        <p class="edu"><u> <b>Coursera.org</b></u></p>
+                        <div class="fecha">En curso</div>
+                    </div>
+                    <div class="educacion">
+
+                        <p class="edu">Introducción al control de versiones con Git y GitHub</p>
+                        <p class="edu"><u> <b>Coursera.org</b></u></p>
+                        <div class="fecha">En curso</div>
+                    </div>
+                    <div class="educacion">
+                        <p class="edu">Database systems</p>
+                        <p class="edu"><u> <b>Coursera.org</b></u></p>
+                        <div class="fecha">En curso</div>
+                    </div>
+                    <div class="educacion">
+                        <p class="edu">Fundamentos de Programación</p>
+                        <p class="edu"><u> <b>Udemy.com</b></u></p>
+                        <div class="fecha">2024</div>
+                    </div>
+                    <div class="educacion">
+                        <p class="edu">Git y GitHub Completo Desde Cero ACTUALIZADO</p>
+                        <p class="edu"><u> <b>Udemy.com</b></u></p>
+                        <div class="fecha">2024</div>
+                    </div>
+                    <div class="educacion">
+                        <p class="edu">JavaScript Moderno: Guía para dominar el lenguaje</p>
+                        <p class="edu"><u> <b>Udemy.com</b></u></p>
+                        <div class="fecha">2024</div>
+                    </div>
+                    <div class="educacion">
+                        <p class="edu">Diseño Web Profesional El Curso Completo, Práctico y desde 0</p>
+                        <p class="edu"><u> <b>Udemy.com</b></u></p>
+                        <div class="fecha">2024</div>
+                    </div>
+                </div>
+                <div class="subsection_edu">
+                    <p class="titulo">Certificados</p>
+                    <div class="educacion">
+
+                        <p class="edu">Google Cloud Computing Foundations Certificate</p>
+                        <p class="edu"><u> <b>GoogleCloud.org</b></u></p>
+                        <div class="fecha">En curso</div>
+                    </div>
+                </div>
+
+        </section>
+
+        <br><br>
+        <section class="habilidades" id="habilidades">
+            <div class="section_spiky">
+                <h2><b><span class="letra">H</span>abilidades</b></h2>
+                <div class="icon_container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="bi bi-tools" viewBox="0 0 16 16">
+                        <path
+                            d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3q0-.405-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708M3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="section">
+                <div class="subsection_edu">
+                    <p class="titulo">Habilidades Técnicas</p>
+                    <div class="educacion">
+                        <p><span>Bases de datos:</span> SQL, MySQL, PostgreSQL</p>
+                        <p><span>Análisis de datos:</span> Excel, Python (pandas, numpy, matplotlib, geopandas).</p>
+                        <p><span>Diseño web:</span> HTML, CSS, JavaScript.</p>
+                        <p><span>Herramientas de desarrollo:</span> Visual Studio, GitHub, Anaconda.</p>
+                    </div>
+                </div>
+                <div class="subsection_edu">
+                    <p class="titulo">Habilidades Blandas.</p>
+                    <div class="educacion">
+                        <p>Comunicación Afectiva.</p>
+                        <p>Trabajo en equipo.</p>
+                        <p>Adaptabilidad.</p>
+                        <p>Aprendizaje Continuo.</p>
+                        <p>Resolución de problemas.</p>
+                        <p>Gestión de tiempo.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <br><br>
+        <section class="ambitos" id="ambitos">
+            <div class="section_spiky">
+                <h2><b><span class="letra">Á</span>mbitos de desarrollo</b></h2>
+                <div class="icon_container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                        class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5q0 .807-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33 33 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935m10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935" />
+                    </svg>
+                </div>
+            </div>
+            <div class="acordeon_item">
+                <div class="acordeon_titulo">
+                    <p class="encabezado">Análisis de Datos Geoespaciales</p>
+                    <span class="acordeon-icono"><i class="bi bi-caret-down-square"></i></span>
+                </div>
+                <div class="acordeon_contenido">
+                    <p>Profundización en técnicas avanzadas para el procesamiento y análisis de datos geoespaciales
+                        utilizando Python y PostgreSQL.</p>
+                </div>
+            </div>
+            <div class="acordeon_item">
+                <div class="acordeon_titulo">
+                    <p class="encabezado">Manejo de Bases de Datos</p>
+                    <span class="acordeon-icono"><i class="bi bi-caret-down-square"></i></span>
+                </div>
+                <div class="acordeon_contenido">
+                    <p> Mejora en la gestión y optimización de bases de datos en SQL, MySQL y PostgreSQL, orientado a
+                        proyectos de análisis y almacenamiento de datos.</p>
+                </div>
+            </div>
+            <div class="acordeon_item">
+                <div class="acordeon_titulo">
+                    <p class="encabezado">Control de Versiones</p>
+                    <span class="acordeon-icono"><i class="bi bi-caret-down-square"></i></span>
+                </div>
+                <div class="acordeon_contenido">
+                    <p> Desarrollo de competencias en el manejo de control de versiones con GitHub para mantener la
+                        organización de proyectos.</p>
+                </div>
+            </div>
+            <div class="acordeon_item">
+                <div class="acordeon_titulo">
+                    <p class="encabezado">Diseño Web Front-End</p>
+                    <span class="acordeon-icono"><i class="bi bi-caret-down-square"></i></span>
+                </div>
+                <div class="acordeon_contenido">
+                    <p> Desarrollo de habilidades en la creación de interfaces web intuitivas y responsivas con HTML,
+                        CSS y
+                        JavaScript.</p>
+                </div>
+            </div>
+        </section>
+        <br><br>
+        <section class="work" id="work">
+            <div class="section_spiky">
+                <h2><b><span class="letra">P</span>royectos</b></h2>
+                <div class="icon_container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="bi bi-briefcase-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5" />
+                        <path
+                            d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="conteiner_cards">
+                <div class="section_cards">
+                    <div class="subsection_card">
+                        <img src="./img/ghibli_1.jpg" alt="Proyecto Studio Ghibli">
+                    </div>
+
+                    <div class="subsection_card">
+                        <h2>Proyecto Ghibli</h2>
+                        <p>
+                            Página dedicada a Studio Ghibli, donde puedes explorar su historia, descubrir las películas
+                            más
+                            icónicas, obtener recomendaciones por género y disfrutar de un juego interactivo que revela
+                            qué
+                            personaje es.
+                        </p>
+                        <div class="sitio">
+                            <a href="https://proyectoghibli.netlify.app/" target="_blank"> URL DEL SITIO WEB</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section_cards">
+                    <div class="subsection_card">
+                        <img src="./img/saig.jpg" alt="Proyecto Saig">
+                    </div>
+                    <div class="subsection_card">
+                        <h2>Proyecto SAIG-UNAM</h2>
+                        <p>
+                            Página de presentación de la Sociedad de Alumnos de la Facultad de Ingeniería de la UNAM,
+                            destacando
+                            su misión y actividades.
+                        </p>
+                        <div class="sitio">
+                            <a href="#"> SITIO EN CURSO</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br><br>
+
+        <section class="contactos" id="contactos">
+            <div class="section_spiky">
+                <h2><b><span class="letra">C</span>ontacto</b></h2>
+                <div class="icon_container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="bi bi-chat-right-text-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353zM3.5 3h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1m0 2.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1m0 2.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1" />
+                    </svg>
+
+                </div>
+            </div>
+            <div class="section_form">
+                <form id="form">
+                    <input type="text" name="from_name" id="from_name" placeholder="Nombre">
+                    <input type="text" name="email_id" id="email_id" placeholder="Correo Electrónico ">
+                    <div class="mns_container">
+                        <input type="text" name="message" id="message" placeholder="Mensaje">
+                        <input type="submit" id="button" value="Enviar">
+                    </div>
+
+                </form>
+            </div>
+            <div class="section_redes">
+                <div class="subsection">
+                    <a href="https://www.linkedin.com/in/patricia-olivares-3b43541bb/" src="LinkedIn"
+                        class="btn">LinkedIn</a>
+                    <a href="https://github.com/PatyOlivares" src="GitHub" class="btn">GitHub</a>
+                    <a href="https://www.instagram.com/paty_floyd/" src="Instagram" class="btn">Instagram</a>
+                </div>
+                <div class="subsection">
+                    <p class="correo">patriciaolivares131096@gmail.com</p>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+    <script src="./JS/transicion_img.js"></script>
+    <script src="./JS/transicion.js"></script>
+    <script src="./JS/acordeon.js"></script>
+    <script src="./JS/contacto.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('Py5VtkbyJp2N8g6gr')
+    </script>
+</body>
+
+</html>

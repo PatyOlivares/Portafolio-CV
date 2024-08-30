@@ -1,0 +1,74 @@
+
+
+
+.subsection_edu .fecha{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    color: #333;
+    border-radius: 30px;
+    padding: 10px 14px;
+    margin-bottom: 30px;
+}
+
+.subsection_edu .edu{
+    font-size: 18px;
+    color: #333;
+}
+.subsection_edu .edu u{
+    color: #000;
+}
+
+.subsection_edu{
+        width: 35%;
+        margin-right: 15%;
+}
+
+.subsection_edu span{
+    color: #333;
+}
+.subsection_edu .educacion{
+    border-bottom:1px solid rgba(212, 210, 210, 0.736) ;
+    color: #333;
+}
+/* para la traslacion */
+.educacion{
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 1s ease;
+}
+.educacion--visible{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+@media screen and (max-width:475px){
+    .subsection_edu {
+        width: 100%;
+        
+    }
+    .subsection_edu .edu{
+        font-size: 16px;
+        color: #333;
+    }
+
+    .subsection_edu{
+        width: 100%;
+        margin-right: 5%;
+    }
+    .subsection_edu .fecha{
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        display: inline-block;
+        text-align: center;
+        border: 1px solid #dcdcdc;
+        color: #333;
+        border-radius: 30px;
+        padding: 10px 14px;
+        margin-bottom: 30px;
+    }
+
+}

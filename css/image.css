@@ -1,0 +1,75 @@
+/* para la seccion de imagenes que se relacionan a las habilidades */
+.img_container{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #4b6587ad
+    /* rgba(188, 188, 188, 0.3); */
+}
+.sect_img .img_container img {
+    max-width: 80%;
+    max-height: 80%;
+    transform: translateX(-15%);
+    transition: transform 1s ease;;
+    
+}
+.sect_img .img_container img.show_animate {
+    transform: translateX(2px);
+}
+.sect_img .animate{
+    transition: 1s;
+}
+
+.section_img{
+    background-color: #fff;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:760px){
+    .section_img{
+        background-color: #fff;
+        padding: 10px 25px;
+        border-radius: 10px;
+        margin-bottom: 1px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .med_img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .img_container {
+        margin: 10px; /* Añade espacio debajo de cada fila */
+
+    }
+}
+
+@media screen and (max-width:475px){
+    .section_img{
+        background-color: #fff;
+        padding: 10px 25px;
+        border-radius: 10px;
+        margin-bottom: 1px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .img_container {
+        margin: 5px; /* Añade espacio debajo de cada fila */
+
+    }
+}

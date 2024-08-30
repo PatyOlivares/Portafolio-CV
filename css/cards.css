@@ -1,0 +1,82 @@
+
+
+
+/* Para la traslacion */
+.section_cards{
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.section_cards--visible{
+    transform: translateY(0);
+    opacity: 1;
+}
+/* ----------------- */
+
+/* CARDS */
+.section_cards{
+    background-color: #fff;
+    padding: 1px;
+    border-radius: 10px;
+    margin-bottom: 1px;
+    width: 49.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.conteiner_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section_cards img{
+   border-radius: 10px ;
+   width: 100%;
+   height: auto;
+   
+}
+
+.subsection_card h2{
+    text-align: center;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.section_cards a{
+    text-decoration: none;
+    border: 1px solid rgba(212, 210, 210, 0.849); /* Ajusta el grosor y color del borde */
+    padding: 8px 8px; /* Espacio entre el borde y el texto: 2px arriba y abajo, 8px a los lados */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+    border-radius: 30px; /* Opcional: bordes redondeados */
+    display: inline-block; /* Asegura que el padding funcione correctamente */
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #111111;
+}
+
+.sitio{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:760px){
+    .section_cards{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:475px){
+    .section_cards{
+        width: 100%;
+    }
+
+    .conteiner_cards {
+        display: block;
+    }
+}

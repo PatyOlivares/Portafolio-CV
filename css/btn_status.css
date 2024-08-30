@@ -1,0 +1,135 @@
+
+
+.subsection .profesion {
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.dot{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(93, 182, 4);
+    border-radius: 50%;
+}
+
+.status {
+    display: flex;
+  border: 1px solid  rgb(201, 200,200) ; 
+  padding: 8px; 
+  border-radius: 20px;
+  margin-right: 40px;
+}
+
+.status p {
+    margin: 0 10px;
+}
+
+.profile{
+    max-width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: 16px;
+}
+
+.p-desc{
+    font-size:22px ;
+    border-bottom: 1px solid rgba(212, 210, 210, 0.736);
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.btn-work{
+    padding: 20px;
+    background-color: #455e7e;
+    color: #fff;
+   border-radius: 30px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   display: inline-block;
+
+}
+.btn-work:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #4B6587;
+    cursor: pointer;
+    
+}
+.btn-cv{
+    padding: 20px;
+    border: 1.5px solid #4B6587;
+    background: none;
+    border-radius: 30px;
+    text-decoration:underline;
+}
+
+.btn-cv:hover{
+    background-color: #4B6587;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:870px){
+    .btn-work, .btn-cv{
+        cursor: pointer;
+    }
+
+    .med_img{
+        display: flex;
+        justify-content: center;
+    }
+    .profile{
+        max-width: 100%;
+        height: 200px;
+        border-radius: 15px;
+        margin-top: 16px;
+        
+    }
+}
+
+@media screen and (max-width:760px){
+    .profile{
+        max-width: 100%;
+        height: 200px;
+        border-radius: 15px;
+        margin-top: 16px;
+        
+    }  
+}
+
+@media screen and (max-width:475px){
+    .btn-work{
+        padding: 15px;
+        background-color: #4B6587;
+        color: #fff;
+       border-radius: 30px;
+       margin-right: 10px;
+    }
+    .btn-cv{
+        padding: 15px;
+        border: 2px solid #000;
+        background: none;
+        border-radius: 30px;
+        text-decoration:underline;
+        border: 1.5px solid #4B6587;
+    }
+    .btn-cv:focus{
+        background-color: #4B6587;
+        color: #fff;
+        cursor: pointer;
+    }
+    .btn-work:focus{
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #4B6587;
+        cursor: pointer;
+    }
+
+    .p-desc{
+        font-size:19px ;
+        border-bottom: 1px solid rgba(212, 210, 210, 0.736);
+        padding-bottom: 20px;
+        text-align: justify;
+    }
+}

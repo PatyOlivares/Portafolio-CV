@@ -1,0 +1,55 @@
+
+
+
+
+
+.section_form{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 2px; 
+}
+.section_form form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section_form form input[id="from_name"], .section_form form input[id="email_id"]{
+    width: 46.7%;
+    padding: 10px;
+    margin-bottom: 2px ;
+    border-radius: 5px;
+}
+
+.mns_container{
+    width: 100%;
+    text-align: right;
+}
+
+.section_form form input[id="message"]{
+    width: 100%;
+    padding: 10px 10px 80px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.section_form form input[type="submit"]{
+    background-color: #111111;
+    color: #fff;
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer; 
+    border: 1px solid rgba(212, 210, 210, 0.736) ;   
+} 
+
+.section_form form input[type="submit"]:focus{
+    border: 1px solid rgb(38, 38, 238);
+}
+
+@media screen and (max-width:760px){
+    .correo{
+        text-align: center;
+        text-decoration:underline;
+    }
+}
+
